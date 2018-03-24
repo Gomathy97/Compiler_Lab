@@ -1,0 +1,8 @@
+{
+int a,n;
+{
+float b,r;
+double x,y;
+char am,rcx;
+}
+}
