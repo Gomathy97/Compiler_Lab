@@ -1,0 +1,18 @@
+{
+	i=1;
+	if(i%2==0){
+		x=x+i;
+	}
+	else{
+		c=x+i;
+		a=x+b;
+	}
+	if(j%5==0){
+		j=j+i;
+	}
+	else{
+		c=x+i;
+		d=x+c;
+	}
+	a=b;
+}
