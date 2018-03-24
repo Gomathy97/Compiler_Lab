@@ -6,3 +6,10 @@ Folder else: dangling else grammar, look for an matching else for if, if else is
 Folder label: generate code from labelled tree.
 Folder syntax: syntax tree generation for a set of assignment statement.
 Folder loop: convert for and do..while loop to while loop.
+Folder symbol: generate symbol table
+
+to run:
+lex lexfile.l
+yacc -d yaccfile.l
+gcc y.tab.c
+./a.out < in.txt
